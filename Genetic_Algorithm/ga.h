@@ -10,7 +10,7 @@ typedef struct ga_t {
     pop_t    *oldpop;	// 이전 모집단
     genome_t *best;     // 생성된 개체 중 가장 좋은 개체
     int       gsize;    // 개체의 유전자 하나의 크기(바이트수)
-    int       length;   // 개체의 유전가 개수
+    int       length;   // 개체의 유전자 개수
     int       psize;    // 모집단 크기
     double    xrate;    // 교차변이 확률
     double    mrate;    // 돌연변이 확률
